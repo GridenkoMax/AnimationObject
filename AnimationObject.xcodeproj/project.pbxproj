@@ -11,6 +11,8 @@
 		2DFC87CA2B3F026300A4A19A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC87C92B3F026300A4A19A /* ContentView.swift */; };
 		2DFC87CC2B3F026400A4A19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC87CB2B3F026400A4A19A /* Assets.xcassets */; };
 		2DFC87CF2B3F026400A4A19A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC87CE2B3F026400A4A19A /* Preview Assets.xcassets */; };
+		2DFC87D62B3F02AE00A4A19A /* TextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC87D52B3F02AE00A4A19A /* TextEffectView.swift */; };
+		2DFC87D82B3F075900A4A19A /* HeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC87D72B3F075900A4A19A /* HeartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2DFC87C92B3F026300A4A19A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DFC87CB2B3F026400A4A19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFC87CE2B3F026400A4A19A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DFC87D52B3F02AE00A4A19A /* TextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectView.swift; sourceTree = "<group>"; };
+		2DFC87D72B3F075900A4A19A /* HeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,8 @@
 		2DFC87C62B3F026300A4A19A /* AnimationObject */ = {
 			isa = PBXGroup;
 			children = (
-				2DFC87C72B3F026300A4A19A /* AnimationObjectApp.swift */,
-				2DFC87C92B3F026300A4A19A /* ContentView.swift */,
+				2DFC87D92B3F404300A4A19A /* App */,
+				2DFC87DA2B3F405200A4A19A /* Views */,
 				2DFC87CB2B3F026400A4A19A /* Assets.xcassets */,
 				2DFC87CD2B3F026400A4A19A /* Preview Content */,
 			);
@@ -65,6 +69,24 @@
 				2DFC87CE2B3F026400A4A19A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DFC87D92B3F404300A4A19A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2DFC87C72B3F026300A4A19A /* AnimationObjectApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2DFC87DA2B3F405200A4A19A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DFC87C92B3F026300A4A19A /* ContentView.swift */,
+				2DFC87D52B3F02AE00A4A19A /* TextEffectView.swift */,
+				2DFC87D72B3F075900A4A19A /* HeartView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFC87CA2B3F026300A4A19A /* ContentView.swift in Sources */,
+				2DFC87D82B3F075900A4A19A /* HeartView.swift in Sources */,
+				2DFC87D62B3F02AE00A4A19A /* TextEffectView.swift in Sources */,
 				2DFC87C82B3F026300A4A19A /* AnimationObjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
